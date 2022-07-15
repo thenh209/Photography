@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=League+Gothic&family=Smooch&family=Stick+No+Bills:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=League+Gothic&family=Patua+One&family=Smooch&family=Stick+No+Bills:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color:rgb(202, 233, 238);
+     
+  
+}
+#titleName
+{
+    font-family: 'Stick No Bills', sans-serif;
+}
+#titleDescription{
+    font-family: 'Smooch', cursive;
+}
+#viewWork{
+    border: 3px solid black;
+    font-family: 'Acme', sans-serif;
+    border-radius: 2em;
+    text-decoration : none;
+    padding: 10px;
+    background-color: rgb(188, 181, 181);
+}
+#viewWork:hover{
+    color: black;
+
+}
+
+#box-1{
+    
+    width: 60vw;
+    height:120vh;
+    background-color:rgb(202, 233, 238) ;
+    
+  
+}
+
+#ourWork{
+    font-family: 'Acme', sans-serif;
+    /* border: 10px solid black; */
+    
+
+}
+#p1-text
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+
+   
+}
+#p1-imgtxt{
+    padding-top:50px;
+    padding-left: 625px;
+    display: flex;
+    
+    height:113.3vh;
+    width:57vw;
+}
+#box-2{
+    width: 85vw;
+    height:130vh;
+    background-color: rgb(166, 149, 165);
+    color: beige;
+    text-align: center;
+    
+  
+
+}
+#ourWork{
+    background-color: rgb(117, 139, 139);
+  
+}
+
+#p2-img img
+{
+    
+    width: 50vw;
+    height: 50vh;
+   
+}
+#p2-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+   
+   
+}
+#firstImageName
+{
+    font-family: 'Patua One', cursive;
+    font-size: 1.8em;
+}
+#box-3{
+   
+    color: white;
+    width:85vw;
+    height:97vh;
+    background-color:rgb(166, 149, 165);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#box-3 img{
+    width: 50vw;
+    height: 50vh; 
+}
+#secondImageName{
+    font-family: 'Patua One', cursive;
+    font-size: 1.8em;
+}
+
+#box-4{
+    color: white;
+    width: 85vw;
+    height:100vh;
+    background-color:rgb(166, 149, 165) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#box-4 img{
+    width: 50vw;
+    height: 50vh;
+}
+#thirdImageName{
+    font-family: 'Patua One', cursive;
+    font-size: 1.8em;
+}
